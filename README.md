@@ -1,5 +1,8 @@
-<!-- 打字动画头图：求职方向一目了然 -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=AI+%E4%B8%93%E4%B8%9A%E6%9C%AC%E7%A7%91+%C2%B7+Agent+%E5%BC%80%E5%8F%91;Vibe+Coding+%E5%BC%80%E5%8F%91+%C2%B7+%E6%8A%8A+AI+%E5%81%9A%E6%88%90%E5%8F%AF%E7%94%A8%E7%9A%84%E4%BA%A7%E5%93%81)](https://github.com/dengpao522)
+<!-- 顶部渐变 Banner：深蓝科技风渐变 + 名字 -->
+<img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=Sean%20%E8%B5%B5%E5%BB%BA%E8%BE%89&desc=Agent%20%E5%BC%80%E5%8F%91%20%C2%B7%20Vibe%20Coding%20%E5%BC%80%E5%8F%91&descSize=18&color=0:58A6FF,100:BC8CFF&stroke=58A6FF&strokeWidth=1&section=header&theme=tokyonight" width="100%" alt="banner" />
+
+<!-- 打字动画：循环滚动一句话 -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=%E6%8A%8A+AI+%E8%83%BD%E5%8A%9B%E5%81%9A%E6%88%90%E7%9C%9F%E6%AD%A3%E5%8F%AF%E7%94%A8%E7%9A%84%E4%BA%A7%E5%93%81;%E6%A8%A1%E5%9E%8B%E4%B8%8D%E5%8F%AF%E9%9D%A0%E6%97%B6%EF%BC%8C%E5%B7%A5%E7%A8%8B%E5%85%9C%E5%BA%95%E5%86%B3%E5%AE%9A%E4%BA%A7%E5%93%81%E4%B8%8B%E9%99%90)](https://github.com/dengpao522)
 
 # 你好，我是 Sean（赵建辉）🚀
 
