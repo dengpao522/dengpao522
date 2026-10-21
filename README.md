@@ -1,5 +1,5 @@
-<!-- 顶部渐变 Banner：蓝紫渐变 + 名字与方向（fontSize/descAlignY 控制分层，避免大字压小字） -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=230&text=Sean%20%E8%B5%B5%E5%BB%BA%E8%BE%89&fontSize=52&desc=Agent%20%E5%BC%80%E5%8F%91%20%C2%B7%20Vibe%20Coding%20%E5%BC%80%E5%8F%91&descSize=20&descAlignY=72&descAlign=center&color=0:58A6FF,100:BC8CFF&section=header" width="100%" alt="banner" />
+<!-- 顶部科技感动态 Banner：SVG 内置 SMIL 动画（流动光带+闪烁粒子+渐变字），GitHub 原生支持 -->
+<img src="assets/banner.svg" width="100%" alt="banner" />
 
 <!-- 打字动画：循环滚动一句话 -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=%E6%8A%8A+AI+%E8%83%BD%E5%8A%9B%E5%81%9A%E6%88%90%E7%9C%9F%E6%AD%A3%E5%8F%AF%E7%94%A8%E7%9A%84%E4%BA%A7%E5%93%81;%E6%A8%A1%E5%9E%8B%E4%B8%8D%E5%8F%AF%E9%9D%A0%E6%97%B6%EF%BC%8C%E5%B7%A5%E7%A8%8B%E5%85%9C%E5%BA%95%E5%86%B3%E5%AE%9A%E4%BA%A7%E5%93%81%E4%B8%8B%E9%99%90)](https://github.com/dengpao522)
