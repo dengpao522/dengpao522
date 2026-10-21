@@ -1,46 +1,83 @@
-# 你好，我是 Sean（赵建辉）👋
+<!-- 打字动画头图：求职方向一目了然 -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=58A6FF&center=true&vCenter=true&width=650&lines=AI+%E4%B8%93%E4%B8%9A%E6%9C%AC%E7%A7%91+%C2%B7+Agent+%E5%BC%80%E5%8F%91;Vibe+Coding+%E5%BC%80%E5%8F%91+%C2%B7+%E6%8A%8A+AI+%E5%81%9A%E6%88%90%E5%8F%AF%E7%94%A8%E7%9A%84%E4%BA%A7%E5%93%81)](https://github.com/dengpao522)
 
-**AI 专业本科 · 求职方向：Agent 开发 / Vibe Coding 开发**
+# 你好，我是 Sean（赵建辉）🚀
 
-把 AI 能力做成真正可用的产品，是我做项目的一条主线——不只是调 API，而是解决"模型不可靠时产品怎么办"的工程问题。
+> 把 AI 能力做成真正可用的产品——不只是调 API，而是解决"**模型不可靠时，产品怎么办**"的工程问题。
 
-## 🚀 精选项目
+- 🔭 **在做**：零后端健康 App · 多模态健康 Agent
+- 🎯 **方向**：Agent 开发 / Vibe Coding 开发
+- 🌱 **信条**：模型会抖、服务会挂，工程兜底决定产品下限
+- 📮 **联系**：3234199611@qq.com
 
-### [健康饮食助手 health-app-pro](https://github.com/dengpao522/health-app-pro)
-**零后端健康 App ｜ Vue 3 · Cloudflare Worker · 阿里云百炼 qwen-vl**
+---
 
-- 拍照 AI 识别：SSE 流式输出 + 双超时闸门 + 本地颜色启发式降级，AI 不可用时用户零白屏
-- 分类营养评分引擎：按食物大类切换评分模板，双向线性计分，16 项抽样校准（鸡胸肉 99 绿 / 可乐 45 红）
-- 纯前端架构：507 条食物库、轻断食、生理期、周报分享图等 30+ 功能，运行成本 0 元
-- 工程化：34 个零依赖测试 + GitHub Actions 三版本矩阵 CI
+## 🏆 精选项目
 
-[![CI](https://img.shields.io/badge/CI-passing-brightgreen)](https://github.com/dengpao522/health-app-pro/actions)
+### 1️⃣ [健康饮食助手](https://github.com/dengpao522/health-app-pro) `Flagship`
 
-### [健康饮食 Agent healthy-eating-agent](https://github.com/dengpao522/healthy-eating-agent)
-**多模态健康 Agent ｜ Python · LangChain · LangGraph · 通义千问 qwen-vl**
+**零后端健康 App ｜ 运行成本 0 元 · 数据全私有**
 
-基于 LangChain+LangGraph 的多模态 AI Agent，通过食物照片识别营养成分，结合用户身体数据生成个性化运动消耗建议（FastAPI + SQLite + 千问多模态）
+> 拍照 AI 识别 → 营养评分 → 智能推荐 → 习惯养成，"记录-分析-改变-陪伴"完整闭环
 
-### [Sophon AI 官网](https://github.com/dengpao522/sophon-site)
-**HTML/CSS/JS** · AI 社区官方网站
+`Vue 3` `Vite` `Cloudflare Worker` `qwen-vl` `SSE` `Node Test Runner`
+
+| 亮点 | 说明 |
+|---|---|
+| 🤖 AI 识别 | SSE 流式 + 双超时闸门 + 本地颜色启发式**降级**，AI 挂了用户零白屏 |
+| 🚦 评分引擎 | 按食物大类切换评分模板，双向线性计分，16 项抽样校准 |
+| 🧱 防刷三层 | 请求头校验 / IP 滑动限流 / payload 上限，Worker 请求路径内惰性清理 |
+| ✅ 工程化 | 34 个零依赖测试 + GitHub Actions 三版本矩阵 CI |
+
+[![CI](https://img.shields.io/github/actions/workflow/status/dengpao522/health-app-pro/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/dengpao522/health-app-pro/actions)
+[![测试](https://img.shields.io/badge/测试-34%20用例-brightgreen?style=flat-square)](https://github.com/dengpao522/health-app-pro/tree/main/tests)
+[![版本](https://img.shields.io/badge/版本-1.2.0-blue?style=flat-square)](https://github.com/dengpao522/health-app-pro)
+
+### 2️⃣ [健康饮食 Agent](https://github.com/dengpao522/healthy-eating-agent)
+
+**多模态健康 Agent ｜ LangGraph 编排的识别-建议流水线**
+
+`Python` `LangChain` `LangGraph` `FastAPI` `qwen-vl`
+
+食物照片 → 营养识别 → 结合身体数据 → 个性化运动建议，Agent 工具调用 + 结构化输出。
+
+### 3️⃣ [Sophon AI 官网](https://github.com/dengpao522/sophon-site)
+
+AI 社区官方网站 `HTML` `CSS` `JavaScript`
+
+---
 
 ## 🛠️ 技术栈
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Vue3](https://img.shields.io/badge/Vue3-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-Worker-F38020?style=flat&logo=cloudflare&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+**AI / Agent**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-## 📊 GitHub 统计
+**前端 / 工程**
+![Vue3](https://img.shields.io/badge/Vue_3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-![Sean's GitHub stats](https://github-readme-stats.vercel.app/api?username=dengpao522&show_icons=true&hide_border=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dengpao522&layout=compact&hide_border=true)
+**云 / 工具**
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Worker-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-## 📮 联系我
+---
 
-- 邮箱：3234199611@qq.com
-- GitHub：[dengpao522](https://github.com/dengpao522)
+## 📊 GitHub 数据
+
+<img src="https://github-readme-stats.vercel.app/api?username=dengpao522&show_icons=true&hide_border=true&include_all_commits=true&theme=tokyonight" height="165" alt="stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dengpao522&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" height="165" alt="langs" />
+
+---
+
+<div align="center">
+
+**"模型的下限靠工程兜底，产品的上限靠场景理解。"**
+
+📮 3234199611@qq.com · 欢迎交流 Agent 落地与 AI 辅助工程
+
+</div>
