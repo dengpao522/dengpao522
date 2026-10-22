@@ -1,5 +1,0 @@
-<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg" font-family="monospace">
-  <rect width="1200" height="280" fill="#0a1024"/>
-  <text x="30" y="-20" fill="#22D3EE" font-size="13">1011A0<tspan dy="16" fill-opacity="0.5">F1</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 330" dur="9s" repeatCount="indefinite"/></text>
-  <text x="600" y="150" text-anchor="middle" font-size="50" fill="#7DF9FF">TEST OK</text>
-</svg>
