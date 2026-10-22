@@ -1,0 +1,7 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="50" fill="#0a1024"/>
+  <circle cx="30" cy="25" r="5" fill="#22D3EE">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="100" y="30" text-anchor="middle" font-size="14" fill="#7DF9FF">BEGIN TEST</text>
+</svg>

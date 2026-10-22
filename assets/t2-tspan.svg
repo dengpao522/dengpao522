@@ -1,0 +1,5 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg" font-family="monospace">
+  <rect width="200" height="50" fill="#0a1024"/>
+  <text x="20" y="-10" font-size="13" fill="#22D3EE">10<tspan dy="14" fill-opacity="0.5">11</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 70" dur="6s" repeatCount="indefinite"/></text>
+  <text x="100" y="30" text-anchor="middle" font-size="14" fill="#7DF9FF">TSPAN TEST</text>
+</svg>
