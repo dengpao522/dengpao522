@@ -29,6 +29,27 @@
 
   <!-- 背景 + 网格 -->
   <rect width="1200" height="280" fill="url(#bg)"/>
+  <!-- 数字雨：黑客帝国效果 -->
+  <g font-family="monospace" font-size="13" opacity="0.5">
+    <text x="30" y="-20" fill="#22D3EE">1011<tspan dy="16" fill-opacity="0.5">A0</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 330" dur="9s" repeatCount="indefinite"/></text>
+    <text x="150" y="-60" fill="#58A6FF">Z3<tspan dy="15" fill-opacity="0.5">9D</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 340" dur="11s" repeatCount="indefinite"/></text>
+    <text x="290" y="-30" fill="#22D3EE">0F11<tspan dy="15" fill-opacity="0.45">2</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 320" dur="8s" repeatCount="indefinite"/></text>
+    <text x="430" y="-70" fill="#BC8CFF">A70<tspan dy="16" fill-opacity="0.4">C3</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 350" dur="12s" repeatCount="indefinite"/></text>
+    <text x="720" y="-25" fill="#22D3EE">D08<tspan dy="15" fill-opacity="0.45">1A</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 340" dur="8.5s" repeatCount="indefinite"/></text>
+    <text x="860" y="-65" fill="#BC8CFF">7E01<tspan dy="16" fill-opacity="0.15">F</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 350" dur="11.5s" repeatCount="indefinite"/></text>
+    <text x="1010" y="-35" fill="#58A6FF">0110<tspan dy="15" fill-opacity="0.4">9C</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 330" dur="9.5s" repeatCount="indefinite"/></text>
+    <text x="1130" y="-55" fill="#22D3EE">A1<tspan dy="15" fill-opacity="0.4">0F</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 340" dur="10.5s" repeatCount="indefinite"/></text>
+  </g>
+  <!-- HUD 四角框线 -->
+  <g stroke="#22D3EE" stroke-opacity="0.45" fill="none" stroke-width="1.5">
+    <path d="M18 44 V18 H44"/><path d="M1156 18 H1182 V44"/><path d="M1182 236 V262 H1156"/><path d="M44 262 H18 V236"/>
+  </g>
+  <!-- 电弧脉冲 -->
+  <path d="M430 170 L470 166 L500 173 L540 167" stroke="#7DF9FF" stroke-width="1.2" fill="none" stroke-opacity="0"><animate attributeName="stroke-opacity" values="0;0.9;0;0;0" dur="5s" repeatCount="indefinite" begin="0.5s"/></path>
+  <path d="M660 170 L700 167 L730 173 L770 168" stroke="#BC8CFF" stroke-width="1.2" fill="none" stroke-opacity="0"><animate attributeName="stroke-opacity" values="0;0;0.85;0;0" dur="5s" repeatCount="indefinite" begin="2.1s"/></path>
+  <!-- 底部能量条 -->
+  <rect x="500" y="262" width="200" height="4" rx="2" fill="#58A6FF" fill-opacity="0.12"/>
+  <rect x="500" y="262" width="0" height="4" rx="2" fill="#22D3EE" fill-opacity="0.8"><animate attributeName="width" values="0;200;200;0" dur="6s" repeatCount="indefinite"/></rect>
   <rect width="1200" height="280" fill="url(#grid)"/>
 
   <!-- 流动扫描光带：从左到右循环 -->
